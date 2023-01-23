@@ -1,9 +1,7 @@
-## Android webView
-
 Hello Android Dev!
 
-> You can use this app in your android phone. This is simple web app. You need internet connection to use this app.
+> I use this app in android.  It's simple web app. If any advice, please commit a messages :)
 
 ---
 
-If any advice, please commit a messages :)
+<p align='center'>Happy coding! :smile: </p>
