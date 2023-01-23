@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/onInternet"
+            android:visibility="visible"
+            android:background="@color/grey"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <WebView
+                android:id="@+id/MyWebApp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </WebView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/noInternet"
+            android:visibility="gone"
+            android:background="@color/grey"
+            android:padding="50dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/noin"
+                android:padding="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="@string/faild_Message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:padding="40dp"
+                android:layout_gravity="center"
+                android:text="@string/noInternetMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/reloadBtn"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="@string/button"
+                android:backgroundTint="@color/white_grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
