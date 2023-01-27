@@ -1,6 +1,6 @@
-Hello Android Dev!
+## Hello Android Dev!
 
-> I use this app in android.  It's simple web app. If any advice, please commit a messages :)
+> I've built this app and it is working properly. This is a simple webView app. If any bugs are found, please message me :)
 
 ---
 
