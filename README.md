@@ -1,7 +1,5 @@
 ## Hello Android Dev!
 
-> I've built this app and it is working properly. This is a simple webView app. If any bugs are found, please message me :)
+> Built this simple webView app, you can convert any website to android app.
 
----
-
-<p align='center'>Happy coding! :smile: </p>
+<p align='right'>Need help contact me!</p>
